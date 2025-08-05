@@ -1,4 +1,4 @@
-import { keyframes, useTheme } from "@emotion/react";
+import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 import {
   AddRounded,
@@ -8,7 +8,7 @@ import {
   DeleteForeverRounded,
   DownloadDoneRounded,
   Favorite,
-  FavoriteRounded,
+  // FavoriteRounded,
   FiberManualRecord,
   GetAppRounded,
   GitHub,
@@ -36,11 +36,11 @@ import {
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { CustomDialogTitle, LogoutDialog, SettingsDialog } from ".";
-import bmcLogoLight from "../assets/bmc-logo-light.svg";
-import bmcLogo from "../assets/bmc-logo.svg";
+// import bmcLogoLight from "../assets/bmc-logo-light.svg";
+// import bmcLogo from "../assets/bmc-logo.svg";
 import { defaultUser } from "../constants/defaultUser";
 import { UserContext } from "../contexts/UserContext";
-import { fetchBMCInfo } from "../services/bmcApi";
+// import { fetchBMCInfo } from "../services/bmcApi";
 import { fetchGitHubInfo } from "../services/githubApi";
 import { DialogBtn, UserAvatar, pulseAnimation, ring } from "../styles";
 import { ColorPalette } from "../theme/themeConfig";
@@ -58,31 +58,31 @@ export const ProfileSidebar = () => {
   const [lastUpdate, setLastUpdate] = useState<string | null>(null);
   const [issuesCount, setIssuesCount] = useState<number | null>(null);
 
-  const [bmcSupporters, setBmcSupporters] = useState<number | null>(null);
+  // const [bmcSupporters, setBmcSupporters] = useState<number | null>(null);
 
-  const theme = useTheme();
+  // const theme = useTheme();
   const n = useNavigate();
 
   useEffect(() => {
     const fetchRepoInfo: () => Promise<void> = async () => {
       const { repoData, branchData } = await fetchGitHubInfo();
       setStars(repoData.stargazers_count);
-      setLastUpdate(branchData.commit.commit.committer.date);
+      setLastUpdate(branchData?.commit?.commit?.committer.date);
       setIssuesCount(repoData.open_issues_count);
     };
 
-    const fetchBMC: () => Promise<void> = async () => {
-      // Fetch data from the Buy Me a Coffee API
-      const { supportersCount } = await fetchBMCInfo();
-      // In case BMC api fails
-      if (supportersCount > 0) {
-        setBmcSupporters(supportersCount);
-      } else {
-        console.error("No BMC supporters found.");
-      }
-    };
+    // const fetchBMC: () => Promise<void> = async () => {
+    //   // Fetch data from the Buy Me a Coffee API
+    //   const { supportersCount } = await fetchBMCInfo();
+    //   // In case BMC api fails
+    //   if (supportersCount > 0) {
+    //     setBmcSupporters(supportersCount);
+    //   } else {
+    //     console.error("No BMC supporters found.");
+    //   }
+    // };
 
-    fetchBMC();
+    // fetchBMC();
     fetchRepoInfo();
   }, []);
 
@@ -297,7 +297,7 @@ export const ProfileSidebar = () => {
 
         <StyledDivider />
 
-        <MenuLink to="https://github.com/maciekt07/TodoApp">
+        <MenuLink to="https://github.com/zehan12/TodoApp">
           <StyledMenuItem translate="no">
             <GitHub className="GitHubIcon" /> &nbsp; Github{" "}
             {stars && (
@@ -313,7 +313,7 @@ export const ProfileSidebar = () => {
           </StyledMenuItem>
         </MenuLink>
 
-        <MenuLink to="https://github.com/maciekt07/TodoApp/issues/new">
+        <MenuLink to="https://github.com/zehan12/TodoApp/issues/new">
           <StyledMenuItem>
             <BugReportRounded className="BugReportRoundedIcon" /> &nbsp; Report Issue{" "}
             {Boolean(issuesCount || issuesCount === 0) && (
@@ -330,7 +330,7 @@ export const ProfileSidebar = () => {
           </StyledMenuItem>
         </MenuLink>
 
-        <MenuLink to="https://www.buymeacoffee.com/maciekt07">
+        {/* <MenuLink to="https://www.buymeacoffee.com/zehan12">
           <StyledMenuItem className="bmcMenu">
             <BmcIcon className="bmc-icon" src={theme.darkmode ? bmcLogoLight : bmcLogo} /> &nbsp;
             Buy me a coffee{" "}
@@ -345,7 +345,7 @@ export const ProfileSidebar = () => {
               </Tooltip>
             )}
           </StyledMenuItem>
-        </MenuLink>
+        </MenuLink> */}
 
         <StyledDivider />
 
@@ -433,9 +433,9 @@ export const ProfileSidebar = () => {
             <span style={{ marginLeft: "6px", marginRight: "4px" }}>by</span>
             <a
               style={{ textDecoration: "none", color: "inherit" }}
-              href="https://github.com/maciekt07"
+              href="https://github.com/zehan12"
             >
-              maciekt07
+              zehan12
             </a>
           </CreditsContainer>
           <CreditsContainer>
@@ -693,11 +693,11 @@ const LogoText = styled.h2`
   }
 `;
 
-const BmcIcon = styled.img`
-  width: 1em;
-  height: 1em;
-  font-size: 1.5rem;
-`;
+// const BmcIcon = styled.img`
+//   width: 1em;
+//   height: 1em;
+//   font-size: 1.5rem;
+// `;
 
 const ProfileOptionsBottom = styled.div`
   margin-top: auto;

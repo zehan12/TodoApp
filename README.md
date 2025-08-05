@@ -1,16 +1,13 @@
-<!-- <p align="center">
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/public/logo192.png" width="128px" />
-</p> -->
-
 # 📝React.js Todo App
 
 <p align="center"><i>A fast and modern Todo app built with React, featuring task sharing via link, P2P Task Sync with WebRTC, theme customization, offline usage as a PWA, and caching for smooth performance.</i></p>
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/baner.png" />
+<img src="https://raw.githubusercontent.com/zehan12/TodoApp/main/screenshots/baner.png" />
 
-## [https://react-cool-todo-app.netlify.app/](https://react-cool-todo-app.netlify.app/)
+## [https://todo-app-one-pi-90.vercel.app/](https://todo-app-one-pi-90.vercel.app/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e3b07d34-f0da-4280-9076-fd40eea893c6/deploy-status)](https://app.netlify.com/sites/react-cool-todo-app/deploys)
+<!-- [![Vercel Status](https://api.netlify.com/api/v1/badges/e3b07d34-f0da-4280-9076-fd40eea893c6/deploy-status)](https://app.netlify.com/sites/react-cool-todo-app/deploys) -->
+
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/maciekt07/TodoApp?color=%23b624ff)
 ![GitHub created at ](https://img.shields.io/github/created-at/maciekt07/TodoApp?color=%23b624ff)
 ![GitHub last commit](https://img.shields.io/github/last-commit/maciekt07/TodoApp?color=%23b624ff)
@@ -48,9 +45,11 @@
 
 Easily share your tasks with others using a link or QR code.
 
-**[Example Link](https://react-cool-todo-app.netlify.app/share?task=N4IgJg9gdgpiBcAzAhgGwM4wDQgA4EspYwEAXAJwFdsQpkBbOeEAdRgCN19SYACAERgA3GKgi5GUUiBxgY6AMbl8uUvmgIQAYXIxkPXsl6pkUMIQDmvXMgt8A7twAWvAEp6FpAHQArdL0QIcl4FVHwYKS9eJ1JSXHR4AHpE+1SvAE8ISlJKdhgvBQh6FP0FJwB+IQBedgBZAGsoRABpAA0ASQAxAEEADgAyUiqAJgBmdH7kdgB9MtNYVCrEXRgtCDktBlwvIIsZEBh6CB98TQBGRABOMDOAWgvRxAVb4YAGV7B7xAAWdnZ9wpiciaADE7AAbMNvohEPswPomCA3sMAKy3V7fF6vAAqrzO8DOl3gr3BXleAHZRgAtOF6MBhWCaZFojEvUa4-FnXrE15k940nAKBEWILpBAAbVA+BIzFew0uwwU7GQaMQ4Jgw1u3zOCkx7BRyHJtwUKMuyFeyGQMAUiBgo32dEYmhYQXq+0Ox1OzAeGoBECBoKhvRgMJAAF8sFKZWdwb1yWdUdryd9waMyaMcI7EWtzFA9jgPSdzogDaqYK9YYL-UFQeCbsNQ2GALo4EzoUgAZWQIiZcpZmLeHPgb3go15oxR1PDQA&userName=Maciej)**
+**[Example Link](https://todo-app-one-pi-90.vercel.app/share?task=N4IgJg9gdgpiBcAzAhgGwM4wDQgA4EspYwEUNsQpkBbOeEAdRgCN18AXGAAgBEYA3GKgi5uiCACcuAY1T4YUdiBxgY6aRPy52+aAhABhCTGScuyLgHcWbM+KnsAFt1nzFykNIjCJ+gMQAzDwAYsEA7MEeYKZ0IABMAAxxAKwAtAkAHOnJACoJYfDJAGzwSQB0yQFhAFpRJmBysPqJKelZKXkFycmlCWUJA7U40jEA5pIAnggA2qD4JPRJAJxx0szIaYhFMHGpACwAjNJ7qczJyGGp0slLyAnIyDDSiDABHlS0+gySANYeMNQIAArfD6A6IAI7DxeHz+OJ7DIwRCIEAAXwAuqigA&userName=zehan)**
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ShareDialog.png" width="300px" alt="Shared Task" />
+<img src="https://raw.githubusercontent.com/zehan12/TodoApp/main/screenshots/ShareDialog.png" width="300px" />
+
+<img width="3197" height="1635" alt="Image" src="https://github.com/user-attachments/assets/ba55423f-b825-4a6f-9c91-78590b4879df" />
 
 ### 🤖 AI Emoji Suggestions
 
@@ -123,23 +122,10 @@ The app will now be running at [http://localhost:5173/](http://localhost:5173/).
 
 ## 📷 Screenshots
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss1.png" width="300px" />
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss2.png" width="300px" />
-
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss3.png" width="300px" />
-
-<!-- <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss4.png" width="300px" />
-
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss5.png" width="300px" />
-
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ss6.png" width="300px" /> -->
-
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/sspc1.png" width="650px" />
-
 ## 🚀 Performance
 
 <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/performance.png" width="600px" />
 
 ## Credits
 
-Made with ❤️ by [maciekt07](https://github.com/maciekt07), licensed under [MIT](https://github.com/maciekt07/TodoApp/blob/main/LICENSE).
+Made with ❤️ by [zehan12](https://github.com/zehan12), licensed under [MIT](https://github.com/zehan12/TodoApp/blob/main/LICENSE).
