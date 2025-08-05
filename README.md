@@ -120,6 +120,12 @@ The app will now be running at [http://localhost:5173/](http://localhost:5173/).
 
 ## 📷 Screenshots
 
+<img width="648" height="1445" alt="Image" src="https://github.com/user-attachments/assets/51765d0f-3e73-477d-bcda-df2772ccda73" />
+
+<img width="648" height="1445" alt="Image" src="https://github.com/user-attachments/assets/b172d720-39c4-41cd-8208-b6bc679831c5" />
+
+<img width="650" height="1443" alt="Image" src="https://github.com/user-attachments/assets/9f466f7f-6ecc-4b38-b274-441e65e02295" />
+
 ## 🚀 Performance
 
 <img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/performance.png" width="600px" />
