@@ -123,11 +123,15 @@ The app will now be running at [http://localhost:5173/](http://localhost:5173/).
 
 <img  height="600" alt="Image" src="https://github.com/user-attachments/assets/9f466f7f-6ecc-4b38-b274-441e65e02295" />
 
+<img width="3189" height="1626" alt="Image" src="https://github.com/user-attachments/assets/88b0fe57-5b7a-4ded-b750-90201b2a6e33" />
+
+<img width="3189" height="1626" alt="Image" src="https://github.com/user-attachments/assets/8b854a23-cc69-45e5-a7e9-d3d86e1c4316" />
+
 ## 🚀 Performance
 
 <img width="2014" height="1657" alt="Image" src="https://github.com/user-attachments/assets/e6ea082b-f766-458a-8857-2acff7384661" />
 
-## PWA Support
+## 📱 PWA Support
 
 <img width="3197" height="1635" alt="Image" src="https://github.com/user-attachments/assets/67617f01-f3fb-4436-9d81-4ff272640da4" />
 
