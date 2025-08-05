@@ -2,7 +2,7 @@
 
 <p align="center"><i>A fast and modern Todo app built with React, featuring task sharing via link, P2P Task Sync with WebRTC, theme customization, offline usage as a PWA, and caching for smooth performance.</i></p>
 
-<img src="https://raw.githubusercontent.com/zehan12/TodoApp/main/screenshots/baner.png" />
+<img width="2466" height="1121" alt="Image" src="https://github.com/user-attachments/assets/918cb300-3a80-46f4-9416-5ade3f1560e7" />
 
 ## [https://todo-app-one-pi-90.vercel.app/](https://todo-app-one-pi-90.vercel.app/)
 
@@ -46,8 +46,6 @@
 Easily share your tasks with others using a link or QR code.
 
 **[Example Link](https://todo-app-one-pi-90.vercel.app/share?task=N4IgJg9gdgpiBcAzAhgGwM4wDQgA4EspYwEUNsQpkBbOeEAdRgCN18AXGAAgBEYA3GKgi5uiCACcuAY1T4YUdiBxgY6aRPy52+aAhABhCTGScuyLgHcWbM+KnsAFt1nzFykNIjCJ+gMQAzDwAYsEA7MEeYKZ0IABMAAxxAKwAtAkAHOnJACoJYfDJAGzwSQB0yQFhAFpRJmBysPqJKelZKXkFycmlCWUJA7U40jEA5pIAnggA2qD4JPRJAJxx0szIaYhFMHGpACwAjNJ7qczJyGGp0slLyAnIyDDSiDABHlS0+gySANYeMNQIAArfD6A6IAI7DxeHz+OJ7DIwRCIEAAXwAuqigA&userName=zehan)**
-
-<img src="https://raw.githubusercontent.com/zehan12/TodoApp/main/screenshots/ShareDialog.png" width="300px" />
 
 <img width="3197" height="1635" alt="Image" src="https://github.com/user-attachments/assets/ba55423f-b825-4a6f-9c91-78590b4879df" />
 
