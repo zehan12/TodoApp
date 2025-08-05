@@ -8,13 +8,10 @@
 
 <!-- [![Vercel Status](https://api.netlify.com/api/v1/badges/e3b07d34-f0da-4280-9076-fd40eea893c6/deploy-status)](https://app.netlify.com/sites/react-cool-todo-app/deploys) -->
 
+![Static Badge](https://img.shields.io/badge/vercel_deploy-success-success?label=Vercel-Deploy)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/maciekt07/TodoApp?color=%23b624ff)
 ![GitHub created at ](https://img.shields.io/github/created-at/maciekt07/TodoApp?color=%23b624ff)
 ![GitHub last commit](https://img.shields.io/github/last-commit/maciekt07/TodoApp?color=%23b624ff)
-
-<!-- <p align="center">
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/iPhone%20Mockup%20black.png" width="400px" />
-</p> -->
 
 ## 💻 Tech Stack
 
@@ -55,9 +52,9 @@ This feature uses Chrome’s experimental `window.LanguageModel` API powered by 
 
 ⚠️ Requires **Chrome Canary 128+** with the **Gemini Nano model installed** - [Setup guide](https://docs.google.com/document/d/1VG8HIyz361zGduWgNG7R_R8Xkv0OOJ8b5C9QKeCjU0c/view?pli=1&tab=t.0#heading=h.witohboigk0o)
 
-Code: [src/components/EmojiPicker.tsx](https://github.com/maciekt07/TodoApp/blob/main/src/components/EmojiPicker.tsx#L116)
+Code: [src/components/EmojiPicker.tsx](https://github.com/zehan12/TodoApp/blob/main/src/components/EmojiPicker.tsx#L116)
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/emoji-ai.gif" alt="AI Emoji" width="360px" style="border-radius:12px" />
+<img src="https://github.com/user-attachments/assets/c1a12df9-4317-4ec7-90aa-203d9f86c61b" alt="AI Emoji" width="360px" style="border-radius:12px" />
 
 ### 🔄 P2P Task Sync with WebRTC
 
@@ -72,35 +69,35 @@ Securely sync all the data between devices using peer-to-peer WebRTC connections
 
 Choose from various color themes and toggle between light and dark modes to suit your preferences.
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/settings.png" width="500px" />
+<img width="924" height="524" alt="Image" src="https://github.com/user-attachments/assets/90a9f373-91c3-450d-8f67-cdf65f241093" />
 
 ### 🗣️ Task Reading Aloud
 
 Option to have tasks read aloud using the native `SpeechSynthesis` API, with a selection of voices to choose from.
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/ReadAloud.png" width="260px" alt="Task Reading Aloud" />
+<img width="408" height="206" alt="Image" src="https://github.com/user-attachments/assets/81dc14cf-900b-42e0-a57e-11f9ac12d38c" />
 
 ### 📥 Import/Export Tasks
 
-Users can import and export tasks to/from JSON files. This feature allows users to back up their tasks or transfer them to other devices easily. [Example Import File](https://github.com/maciekt07/TodoApp/blob/main/example-import.json)
+Users can import and export tasks to/from JSON files. This feature allows users to back up their tasks or transfer them to other devices easily. [Example Import File](https://github.com/zehan12/TodoApp/blob/main/example-import.json)
 
 ### 📴 Progressive Web App (PWA)
 
 This app is a Progressive Web App (PWA), which means it can be installed on your device, **used even when you're offline** and behave like a native app with shortcuts and app badges.
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/pwaTaskBar.png" alt="taskbar" width="260px" />
+<img width="256" height="320" alt="Image" src="https://github.com/user-attachments/assets/1d4e515b-0351-4e14-aa13-254427d71a7a" />
 
 ### 🔄 Update Prompt
 
 The app features a custom update prompt that notifies users when a new version is available, allowing for easy refresh to access the latest improvements.
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/UpdatePrompt.png" alt="update prompt" width="260px" />
+<img alt="Image" src="https://github.com/user-attachments/assets/6a1279c4-4b00-4897-85b2-e5ad52fc9ff7" />
 
 ### 📱 Custom Splash Screens
 
 The app automatically generates custom splash screens from a single HTML template for various iOS and iPadOS devices in both light and dark modes. These splash screens provide a smooth, native-like launch experience when the app is opened as a PWA.
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/SplashScreen.png" alt="Splash Screen Example" width="450px" />
+<img alt="Image" src="https://github.com/user-attachments/assets/cda15514-285f-4cd4-a8ed-a1abcc80c411" />
 
 To generate splash screens: `npm run generate-splash`
 
@@ -108,7 +105,7 @@ To generate splash screens: `npm run generate-splash`
 
 To install and run the project locally, follow these steps:
 
-- Clone the repository: `git clone https://github.com/maciekt07/TodoApp.git`
+- Clone the repository: `git clone https://github.com/zehan12/TodoApp.git`
 - Navigate to the project directory: `cd TodoApp`
 - Install the dependencies: `npm install`
 - Start the development server: `npm run dev`
@@ -128,7 +125,11 @@ The app will now be running at [http://localhost:5173/](http://localhost:5173/).
 
 ## 🚀 Performance
 
-<img src="https://raw.githubusercontent.com/maciekt07/TodoApp/main/screenshots/performance.png" width="600px" />
+<img width="2014" height="1657" alt="Image" src="https://github.com/user-attachments/assets/e6ea082b-f766-458a-8857-2acff7384661" />
+
+## PWA Support
+
+<img width="3197" height="1635" alt="Image" src="https://github.com/user-attachments/assets/67617f01-f3fb-4436-9d81-4ff272640da4" />
 
 ## Credits
 
